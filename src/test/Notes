@@ -1,0 +1,8 @@
+# FOR POP UP TOPICS
+
+# To upload file in the browser , check in path there should be type = file , in most of the cases there are file type.
+#But if there is not file type we can not upload file in the browser.
+#There are three types of pop ups
+#1. Alerts -- javaScript pop up -- Alert API ( accept , dismiss)
+#2. File upload pop up -- browser button ( type = file , sendleys(path of the file)
+#3. Browser window popup -- Advertisement pop up ( windowHandler API - getWindowHandler() )
