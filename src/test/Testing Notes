@@ -1,0 +1,14 @@
+1-->As a tester we have to check cookies manually and in automatation too.
+
+2-->sendKeys --(Input tag) which we are using to type something or give any input on the elemnts.
+which is only used for (input tag) , if we are using it for another tag like div or something ,
+                       ------------
+it will not work.
+
+3-->Click() -- (a or anchor/link , button, dropdown) which is used only in this tags.
+
+4-->clear() -- ( input tag only)
+
+5-->submit() -- only on forms which we are going to submit.
+
+6-->Radiobutton are input elements(tag)

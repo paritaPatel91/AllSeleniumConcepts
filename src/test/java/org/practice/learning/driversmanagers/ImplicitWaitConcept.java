@@ -1,8 +1,12 @@
 package org.practice.learning.driversmanagers;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -41,7 +45,13 @@ public class ImplicitWaitConcept {
 
         //Thread.sleep is staic wait :not used it pause all time Aand wait until finish all timesecond if actions already performs
 
+        //fluentwair is also implicitwaits.
+        //Implicitwait is consider as BAD (But are good as compare to Thread.sleep)
+        //Explicitwait is consider as Good wait.
+        //This both waits are on the driver level so whenever we use driver.findelement we can have wait overther.
 
+        //Do not use implicitwait ,so question is what we can use then.
+        //we can use WebdriverWait class and make it object of it.(ExplicitWait is the webdriverWait)
 
 
 

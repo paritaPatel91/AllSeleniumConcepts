@@ -55,6 +55,11 @@ public class MouseOverActions {
         WebElement parita = driver.findElement(By.id("ctl06__7cac75b1df08dc_repMainNav_topLevelLink_3"));
         actions.moveToElement(parita).click().build().perform();
 
+        //There are so many methods for actions use it according to requirements.
+        //contextLink which is use when there is element when we right click on that element ,
+        // it shows something diff options n when we click somewhere else it shows something diff options.
+        
+
 
 
     }

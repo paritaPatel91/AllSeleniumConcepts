@@ -1,0 +1,38 @@
+* Framwork - well defined structure to solve a particular problem
+* Build a Automation suite for a Compant/project
+* Automation framework
+----------------------
+1. manage the test cases
+2. test data management
+3. reporting
+4. scalable
+5. pages management
+6. reusable
+7. support for multiple browser
+8. integration
+-------------------
+* we use
+java + maven + testNg + webdriver + other to build this framework
+
+* Kind of framework
+--------------------
+1. Data driven framework
+
+Execution flow is fluel by data , means how data flow happens bewtween the testcases.-->Order flow
+
+2. Keyword driven framework
+
+Execution happens based on the keyword--> openbrowser--> do login--> addproduct
+
+3. Hybrid
+
+combination of data driven and keyword
+
+INTERVIEW QUESTION :
+**How do you read excelfile?
+ANS :By adding dependency of apache.poi.version in the pom.xml.
+
+**why we use surefile-pliugin?
+ANS : To run testcases unattended through mavenl.to run functionality of the project.
+
+** maven failsafe plugin which require to run the integration of the testcases in the project.

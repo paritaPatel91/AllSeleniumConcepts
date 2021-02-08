@@ -57,14 +57,14 @@ public class DropDownHandleConceptsPart1 {
         Select select2 = new Select(year);
         select2.selectByVisibleText("1991");
 //__________________________________________________________________
-        //use same webelements for the second method
+      /*  use same webelements for the second method
 
-        //This is the second method
-        //This method is use to select value in any page where we have more than 50 or many dropdown checkboxes aailable,
-        //we can use this method to simplify and make less code to write.
-        // we can use any of the the method
-        // for this i have created one method and using this static method outside the method and give the value.
-
+         This is the second method
+         This method is use to select value in any page where we have more than 50 or many dropdown checkboxes aailable,
+         we can use this method to simplify and make less code to write.
+         we can use any of the the method
+         for this i have created one method and using this static method outside the method and give the value.
+*/
 
         selectValueFromDropDown(month,"Mar");
         selectValueFromDropDown(day,"10");

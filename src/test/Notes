@@ -6,3 +6,5 @@
 #1. Alerts -- javaScript pop up -- Alert API ( accept , dismiss)
 #2. File upload pop up -- browser button ( type = file , sendleys(path of the file)
 #3. Browser window popup -- Advertisement pop up ( windowHandler API - getWindowHandler() )
+#4.we have one topic called Synchronization -- whic has Implicitwaits, ExplicitWaits, FluentWaits.
+#5.If we wants to play vidio , we can not do with selenium , we have to use sikulli for that.

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Amazon shop online">
+    <test name="Amzon test automation">
+        <classes>
+            <class name="org.practice.learning.driversmanagers.TestngAssertionConcept"></class>
+            <class name="org.practice.learning.driversmanagers.TestNgBasics"></class>
+            <class name="org.practice.learning.driversmanagers.TestngTestPart1"></class>
+        </classes>
+    </test>
+</suite>
