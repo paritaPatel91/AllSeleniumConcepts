@@ -17,7 +17,7 @@ public class LocatorConcept {
 
 
         /*
-** html DOM means ::Document object model,it's nothing but html document.
+git remote** html DOM means ::Document object model,it's nothing but html document.
 
 ** Each n every page has own html DOM,whatever html source have written over there.
 
