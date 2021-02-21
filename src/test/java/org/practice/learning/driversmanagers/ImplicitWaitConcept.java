@@ -43,7 +43,7 @@ public class ImplicitWaitConcept {
         //This allow page to wait for all elemets to load completely and then perform actions within this time period ,
         // if elements perfoms its actons within 5seconds then rest of time will be ignored.
 
-        //Thread.sleep is staic wait :not used it pause all time Aand wait until finish all timesecond if actions already performs
+        //Thread.sleep is staic wait :not used it pause all time and wait until finish all timesecond if actions already performs
 
         //fluentwair is also implicitwaits.
         //Implicitwait is consider as BAD (But are good as compare to Thread.sleep)
