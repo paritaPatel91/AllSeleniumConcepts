@@ -7,6 +7,8 @@ import org.testng.log4testng.Logger;
 
     public class GenerateLogs {
 
+        //dont use this one we have created seperate project for this concept
+
 
         public static void main(String[] args) {
 
